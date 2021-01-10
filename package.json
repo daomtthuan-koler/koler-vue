@@ -1,0 +1,40 @@
+{
+  "name": "@koler/koler-vue",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Koler components for VueJS / NuxtJS",
+  "author": {
+    "name": "Daomtthuan",
+    "email": "dao.mt.thuan@gmail.com"
+  },
+  "scripts": {
+    "build": "vue-cli-service build --target lib --name koler ./src/main.ts"
+  },
+  "main": "./dist/koler.common.js",
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "vue": "^2.6.11",
+    "vue-class-component": "^7.2.3",
+    "vue-property-decorator": "^9.1.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-typescript": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^8.0.2",
+    "typescript": "~3.9.3",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "_id": "@koler/koler-vue@0.0.0",
+  "bugs": {
+    "url": "https://github.com/daomtthuan-koler/koler-vue/issues"
+  },
+  "homepage": "https://github.com/daomtthuan-koler/koler-vue#readme",
+  "license": "MIT",
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daomtthuan-koler/koler-vue.git"
+  }
+}
